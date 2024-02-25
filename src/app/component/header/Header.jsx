@@ -41,9 +41,10 @@ function Header() {
               Login
             </a>
           </div>
-          <button className="md:hidden" onClick={ btnToggle}>
-          <FontAwesomeIcon icon={faBars} className='w-5' />
+          <button className="md:hidden absolute right-4" onClick={ btnToggle}>
+          <FontAwesomeIcon icon={faBars} className='text-2xl ' />
           </button>
+          
 
 <div className="md:hidden">
           <div id='mobile-menu' ref={element} className='my-10 absolute flex hidden flex-col items-center space-y-4 font-bold left-6 right-6 drop-shadow-lg border-gray-300 bg-gray-50 py-8 px-8'>

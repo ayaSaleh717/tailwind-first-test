@@ -4,7 +4,7 @@ export default function Img1() {
   return (
     <div>
       <svg
-      className='w-25'
+      className='mx-20'
         // width="68"
         // height="60"
         viewBox="0 0 678.62 606.19"
